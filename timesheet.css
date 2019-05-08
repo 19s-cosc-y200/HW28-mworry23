@@ -1,0 +1,32 @@
+/*
+Project Name: Time Sheet and Employee List Page (HW28)
+Author: Megan Worry 
+Date Last Modified: May 8, 2019
+*/
+table { 
+    width: 200px;
+    margin: auto;
+}
+caption {
+    font-size: 2em;
+    font-weight: bold;
+}
+thead {
+    background-color: #EAEAEA;
+}
+tbody {
+    font-family: Arial, sans-serif;
+    font-size: .90em;
+}
+tbody td {
+    border-bottom: 1px #000033 dashed;
+    padding-left: 25px;
+}
+tfoot {
+    background-color: #EAEAEA;
+    font-weight: bold;
+    text-align: center;
+}
+table.table2 {width: 400px;}
+table.table2 thead, table.table2 tfoot {background-color: #C0C0C0;}
+table.table2 tr:nth-of-type(even) {background-color: #00FFFF;}
